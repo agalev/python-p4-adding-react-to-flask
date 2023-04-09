@@ -23,6 +23,7 @@ function NewMessage({ currentUser, onAddMessage }) {
       });
   }
 
+  
   return (
     <form className="new-message" onSubmit={handleSubmit}>
       <input
